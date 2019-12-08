@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:id="@+id/item"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <CheckBox
+               android:id="@+id/checkBox"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:layout_weight="1" />
+
+           <TextView
+               android:id="@+id/item_content"
+               android:layout_width="35dp"
+               android:layout_height="20dp"
+               android:layout_weight="1"
+               android:scrollbars="horizontal" />
+
+           <TextView
+               android:id="@+id/item_gns"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:layout_weight="1" />
+
+           <TextView
+               android:id="@+id/item_gne"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:layout_weight="1" />
+
+           <TextView
+               android:id="@+id/item_period"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:layout_weight="1" />
+           // 두버튼에 오른쪽 정렬 추가 필요
+           // 두버튼에 링크를 달아야함
+
+           <Button
+               android:id="@+id/button_sound"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+
+               android:text="음성"
+               android:textSize="10sp" />
+
+           <Button
+               android:id="@+id/button_picture"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:text="사진"
+
+               android:textSize="10sp" />
+
+
+
+
+       </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
